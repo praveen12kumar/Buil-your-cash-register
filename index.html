@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build your cash register</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Cash register manager</h1>
+        <p class="description">
+            Enter the bill amount and cash given by the Customer and
+            know minimum number of notes to return.
+        </p>
+        <label class="bill-and-cash" for="bill-amount">Bill amount:</label>
+        <input type="text" id="bill-amount" class="input">
+        <label class="bill-and-cash" for="cash-amount">Cash Given:</label>
+        <input type="text" id="cash-given" class="input">
+        <button id="btn" class="btn">Check</button>
+        <p id="error-message"></p>
+        <table class="change-table">
+            <caption class="bill-and-cash">Return Change:</caption>
+            <tr class="row">
+                <th class="head">No. of Notes</th>
+                <td class="numofNotes data"></td>
+                <td class="numofNotes data"></td>
+                <td class="numofNotes data"></td>
+                <td class="numofNotes data"></td>
+                <td class="numofNotes data"></td>
+                <td class="numofNotes data"></td>
+                <td class="numofNotes data"></td>
+            </tr>
+            <tr>
+                <th class="head">Note</th>
+                <td class="data">2000</td>
+                <td class="data">500</td>
+                <td class="data">100</td>
+                <td class="data">20</td>
+                <td class="data">10</td>
+                <td class="data">5</td>
+                <td class="data">1</td>
+            </tr>
+        </table>
+
+
+    </div>
+
+    <script type="text/javascript" src="/script.js"></script>
+</body>
+</html>
