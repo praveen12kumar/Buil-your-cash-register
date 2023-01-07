@@ -13,7 +13,7 @@ checkButton.addEventListener("click", function(){
     errorMessage.style.display = "none";
     if(billAmount.value > 0){
         if(cashGiven.value > billAmount.value){
-        /*----Calculate the amount to be returned-----*/
+            /*----Calculate the amount to be returned-----*/
             let amountToBeReturned = cashGiven.value - billAmount.value;
             console.log(amountToBeReturned);
             calculateTheChangeNotes(amountToBeReturned);
